@@ -8,13 +8,13 @@ let playList = [
     {
         name: 'Lost Game',
         artist: 'Nulbarich',
-        src: './Data/music2.flac',
+        src: './Data/music2.mp3',
         picture: './Data/music2.jpg'
     },
     {
         name: 'ミライのテーマ',
         artist: '山下達郎',
-        src: './Data/music3.flac',
+        src: './Data/music3.mp3',
         picture: './Data/music3.jpg'
     }
 ]
