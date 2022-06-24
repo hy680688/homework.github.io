@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我喜欢的歌曲</title>
+    <link rel="stylesheet" href="./CSS/music.css">
+</head>
+
+<body>
+    <header>
+        <a href="profile.html">个人简介</a>
+        <a href="hobby.html">兴趣爱好</a>
+        <a class="active" href="music.html">我喜欢的歌曲</a>
+        <a href="photo.html">我的风景照片</a>
+    </header>
+    <section>
+        <div class="player">
+            <img src="./Data/music1.jpg" id="img">
+            <audio src="./Data/music1.mp3" id="audio" controls></audio>
+            <div class="controls">
+                <button onclick="changeMusic('last')">上一曲</button>
+                <button onclick="changeMusic('next')">下一曲</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="motto">
+            <p>“真不想承认啊......这是因为我年轻而犯下的错误。”</p>
+            <p>————夏亚·阿兹纳布尔</p>
+        </div>
+    </footer>
+
+    <script src="./JavaScript/music.js"></script>
+</body>
+
+</html>

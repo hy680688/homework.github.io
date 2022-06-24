@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介</title>
+    <link rel="stylesheet" href="./CSS/profile.css">
+</head>
+
+<body>
+    <header>
+        <a class="active" href="profile.html">个人简介</a>
+        <a href="hobby.html">兴趣爱好</a>
+        <a href="music.html">我喜欢的歌曲</a>
+        <a href="photo.html">我的风景照片</a>
+    </header>
+    <div class="content">
+        <aside>
+            <div class="aside">
+                <a href="#ZH" id="chinese" class="active" onclick="languageChange(true)">中文</a>
+                <a href="#EN" id="english" onclick="languageChange(false)">英文</a>
+            </div>
+        </aside>
+        <section>
+            <div id="ZH">
+                <h1 class="margin0 textCenter">韩义</h1>
+                <p class="textCenter">15735723594 | hy680688@163.com</p>
+                <p></p>
+                <h3>教育背景</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p>
+                            <span class="marginR20 title">中南财经政法大学</span>
+                            <span class="marginR20 title">信息与安全工程学院</span>
+                            <span class="marginR20 title">大数据管理与应用专业</span>
+                            <span class="marginR20 title">金融工程（辅修）</span>
+                        </p>
+                        <p class="nowarp">2020.9 - 2024.6</p>
+                    </div>
+                    <li class="marginR20 bottom1rem">
+                        <span class="title">成绩：</span>
+                        <span class="marginR20">86.46/100</span>
+                        <span>GPA：3.4/4.0</span>
+                    </li>
+                    <li class="bottom1rem">
+                        <span class="title">核心课程：</span>
+                        <span class="marginR20">程序设计（100）</span>
+                        <span>信息科学概论（98）等</span>
+                    </li>
+                    <div class="spaceBetween bottom1rem">
+                        <li class="marginR20">
+                            <span class="title">专业证书：</span>
+                            <span>ACCA
+                                学习进度10/13</span>
+                        </li>
+                        <span>BEC剑桥商务英语中级并备考高级</span>
+                    </div>
+                    <div class="spaceBetween">
+                        <li class="marginR20">
+                            <span class="title">竞赛获奖：</span>
+                            <span>第十五届全国大学生计算机设计大赛中部赛区二等奖</span>
+                        </li>
+                        <span>第三十二届“博文杯”百项实证创新基金项目立项</span>
+                    </div>
+                </div>
+                <h3>专业技能</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p>
+                            <span class="title">数据分析：</span>
+                            <span>Mysql，Python，E-charts</span>
+                        </p>
+                        <p>
+                            <span class="title">编程语言：</span>
+                            <span>C++，Python，Java</span>
+                        </p>
+                    </div>
+                    <div class="spaceBetween">
+                        <p>
+                            <span class="title">应用设计：</span>
+                            <span>PS，PR，Cinema 4D</span>
+                        </p>
+                        <p>
+                            <span class="title">建模分析：</span>
+                            <span>Excel，Lingo</span>
+                        </p>
+                    </div>
+                </div>
+                <h3>实习经历</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">北京字节跳动科技有限公司 | 国际支付部门资金运营实习生</p>
+                        <p class="nowarp">2022.1-至今</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>用Mysql语言完成账单月结模板，实现百万级交易数据月结自动化，显著减少月结所需要的时间和人工投入；</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>跟进月结模板使用后续反馈及建议，对跨国交易数据库进行配置和维护，完善SQL模板中的逻辑；</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>负责部分渠道侧的数据解析工作，利用数据库功能对数据量超出Excel处理范围的数据进行数据清洗、数据预
+                            处理和数据分析，及时将处理结果反馈回渠道侧，与渠道侧同学沟通分析差异；</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>中英文双语工作环境，与国内外渠道的负责人联系沟通，确认账单处理逻辑等工作进行中遇到的问题；帮助 国内外渠道侧负责人了解掌握SQL月结自动化模板的使用逻辑</p>
+                    </div>
+                </div>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">北京集创北方科技股份有限公司 | 财务部应付账款组实习生</p>
+                        <p class="nowarp">2021.7-2021.9</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>应用编程语言C++设计并编写简单程序，批量处理繁琐数据，提高核对海关报关单等工作的处理效率，实现大量数据的一次性输出比较；</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>负责在公司换用的SAP企业管理系统中进行应付账款的相关数据测试，并将测试结果反馈到相关部门；</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>在公司上市审计过程中，负责查证深圳、香港等地分公司及子公司的律所、会计师事务所和证券公司三方询证函，核对供应商提供的交易明细与本公司账务系统中的明细账，利用数据透视表等工具定位双方差异、分析其中原因；
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>到访深圳分公司及深圳仓库，实地调研了解产品物流的实际操作流程；参与盘点仓库中待销的不良品库存，了解
+                            不良品的管控方式，查找其中可能存在的内控缺陷或管理漏洞；整理结果并对公司完善该部分内控系统提供建议
+                        </p>
+                    </div>
+                </div>
+                <h3>竞赛经历</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">第十五届全国大学生计算机设计大赛 | 队长</p>
+                        <p class="nowarp">2022.5</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>与中国碳核算数据库（CEADs）官方沟通合作，搭建我国首个双碳BI平台</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>对CEADs提供支持的数据进行清洗及分析，将碳排放与碳达峰的相关数据可视化处理展示；原创企业碳交易统筹平台，内置数据仓库，实现企业碳交易数据按需提取、个性化图表展示及数据获取</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>协作完成平台的前端开发、页面设计、用户交互和部分UI设计，完成作品移动端适配</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>作品链接<a href="http://www.bi-carbon.com.cn">www.bi-carbon.com.cn</a>(网站已完成CPI备案）</p>
+                    </div>
+                </div>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">第三十一届“博文杯”百项实证创新基金项目 | 核心队员</p>
+                        <p class="nowarp">2020.11</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>对后疫情时代的城市营商环境进行调研，与队员完成报告《突发公共卫生事件对城市营商环境影响及对策分析》</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>用Python语言爬虫技术对课题所需的湖北省历年国有控股企业及私营企业的应收账款回收期等重要财务信息进行
+                            爬取搜集；合作分析所爬取的数据，使用多元线性回归模型、差分自回归移动平均（ARIMA）模型、条件异方差（GARCH）
+                            波动模型、深度学习模型等多种模型对爬取数据进行建模处理
+                        </p>
+                    </div>
+                </div>
+                <h3>学生工作</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">中南财大华为财经俱乐部 | 人力秘书处成员</p>
+                        <p class="nowarp">2021.4-至今</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>参与组织承办2021华为财务精英挑战赛，负责大赛初赛的宣传推广工作，我校参赛人数位列高校第一</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>负责初赛及复赛的外联工作，以及大赛现场的组织工作
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="EN">
+                <h1 class="margin0 textCenter">Han Yi</h1>
+                <p class="textCenter">+86 157 3572 3594 / hy680688@163.com</p>
+                <p></p>
+                <h3>Educational Background</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p>
+                            <span class="marginR20 title">Zhongnan University of Economics and
+                                Law</span>
+                            <span class="marginR20 title">Major in Big Data Management and
+                                Application</span>
+                            <span class="marginR20 title">School of Information and Security
+                                Engineering</span>
+                            <span class="marginR20 title">Minor in Financial Engineering</span>
+                        </p>
+                        <p class="nowarp">Sep.2020 – Jun.2024</p>
+                    </div>
+                    <li class="marginR20 bottom1rem">
+                        <span class="title">Score：</span>
+                        <span class="marginR20">86.46/100</span>
+                        <span>GPA：3.4/4.0</span>
+                    </li>
+                    <li class="bottom1rem">
+                        <span class="title">Core Courses：</span>
+                        <span class="marginR20">Programming (100)</span>
+                        <span>Introduction to
+                            Information Science (98), etc.</span>
+                    </li>
+                    <div class="spaceBetween bottom1rem">
+                        <li class="marginR20">
+                            <span class="title">Professional Certificate：</span>
+                            <span>ACCA learning
+                                progress 10/13</span>
+                        </li>
+                        <span>BEC Cambridge Business English Intermediate and advanced preparation</span>
+                    </div>
+                    <div class="spaceBetween">
+                        <li class="marginR20">
+                            <span class="title">Honorary Awards：</span>
+                            <span>Second prize in the
+                                central division of the
+                                15th National College Students Computer Design Competition</span>
+                        </li>
+                        <span>>The 32nd "Bowen Cup" 100 Empirical Innovation Fund projects were approved</span>
+                    </div>
+                </div>
+                <h3>专业技能</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p>
+                            <span class="title">Data Analysis：</span>
+                            <span>Mysql，Python，E-charts</span>
+                        </p>
+                        <p>
+                            <span class="title">Programming Language：</span>
+                            <span>C++，Python，Java</span>
+                        </p>
+                    </div>
+                    <div class="spaceBetween">
+                        <p>
+                            <span class="title">Application Design：</span>
+                            <span>PS，PR，Cinema 4D</span>
+                        </p>
+                        <p>
+                            <span class="title">Modeling Analysis：</span>
+                            <span>Excel，Lingo</span>
+                        </p>
+                    </div>
+                </div>
+                <h3>Internship Experience</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">Beijing Bytedance Technology Co. LTD | Intern of
+                            Capital Operation in
+                            International Payment Department</p>
+                        <p class="nowarp">Jan.2022 – present
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Completed the monthly statement settlement template with Mysql language, realized the
+                            automation of monthly settlement of millions level
+                            of transaction data, significantly reduced the time and labor input required for monthly
+                            settlement.
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Followed up the following feedback and suggestions on the use of monthly settlement
+                            template, configured and maintained the
+                            transnational transaction database, improved the logic in SQL template.</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Responsible for the data analysis work on the channel side, used the database function to
+                            conduct data cleaning, data preprocessing and data
+                            analysis on the data exceeding the scope of Excel processing, timely fed back the processing
+                            results to the channel side, communicated and
+                            analyzed the differences with the students on the channel side.
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Work in bilingual Chinese and English environment, communicated with the responsible
+                            person of domestic and foreign channels,
+                            confirmed the problems encountered in the process of bill processing logic, etc. Helped
+                            domestic and foreign channel leaders to understand
+                            the logic of using SQL monthly settlement automatic template.</p>
+                    </div>
+                </div>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">Chipone Technology (Beijing) Co. LTD | Intern of
+                            Accounts Payable Group
+                            in Finance Department</p>
+                        <p class="nowarp">2021.7-2021.9</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Used the application programming language C++ to design and write simple programs, batch
+                            processing cumbersome data, improved the
+                            processing efficiency of checking customs declaration and other work, achieved a large
+                            number of data output one-time comparison.
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Tested the accounts payable data in SAP enterprise management system changed by company,
+                            fed back the results to relevant departments.</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>During the listing audit of the company, responsible for verifying the three-party
+                            confirmation letters from the law firms, accounting firms
+                            and securities companies of the branches and subsidiaries in Shenzhen, Hong Kong and other
+                            places, checked the transaction details
+                            provided by the suppliers and the sub ledgers in the company's accounting system, and used
+                            tools such as PivotTables to locate the
+                            differences between the two sides and analyzed the reasons.
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Visited Shenzhen Branch and Shenzhen warehouse to investigate and understand the actual
+                            operation process of product logistics.
+                            Participated in the inventory of defective products to be sold in the warehouse, understood
+                            the control methods of defective products, and
+                            found out the possible internal control defects or management loopholes; Sorted out the
+                            results and provided suggestions for the company to
+                            improve the internal control system of this part.
+                        </p>
+                    </div>
+                </div>
+                <h3>Competition Experience</h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">The 15th National College Students Computer Design
+                            Competition | Team
+                            Leader</p>
+                        <p class="nowarp">May.2022</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Communicated and cooperated with China Emission Accounts Datasets (CEADs) to build China's
+                            first double-carbon BI platform.
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Cleaned and analyzed the data supported by CEADs, and visually processed and displayed the
+                            data related to carbon emission and carbon
+                            peak; The original enterprise carbon trading coordination platform, with built-in data
+                            warehouse, realized on-demand extraction of enterprise
+                            carbon trading data, personalized chart display and data acquisition.</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Completed front-end development, page design, user interaction, part of UI design of the
+                            platform, and mobile adaptation of works.</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Work link:<a href="http://www.bi-carbon.com.cn">www.bi-carbon.com.cn</a>(CPI registration
+                            has been completed on the website)
+                        </p>
+                    </div>
+                </div>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">The 31st "Bowen Cup" 100 Empirical Innovation Fund
+                            Projects | Key
+                            Member</p>
+                        <p class="nowarp">Nov.2020</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Investigated the urban business environment in the post epidemic era, and completed the
+                            report "Impact of Public Health Emergencies on
+                            Urban Business Environment and Countermeasures Analysis" with the team members.
+                        </p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Used the python language crawler technology to crawl and collect important financial
+                            information such as the payback period of accounts
+                            receivable of state-owned holding enterprises and private enterprises in Hubei Province over
+                            the years. Cooperative analysis of the crawled
+                            data uses multiple linear regression model, autoregressive integrated moving average model
+                            (ARIMA), autoregressive conditional
+                            heteroscedasticity model (GARCH), and other models to model and process the crawled data.
+
+                        </p>
+                    </div>
+                </div>
+                <h3>Campus Experience
+                </h3>
+                <div class="padding5">
+                    <div class="spaceBetween">
+                        <p class="title">Huawei Finance club of Zhongnan University of Finance
+                            and Economics |
+                            Member of the HR Secretariat </p>
+                        <p class="nowarp">Apr.2021 – present</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Participated in organizing and hosting the 2021 Huawei financial elite challenge, and
+                            responsible for the publicity and promotion of the
+                            preliminary competition. The number of participants of our school ranked first among
+                            colleges and universities.</p>
+                    </div>
+                    <div class="rowFlex">
+                        <li></li>
+                        <p>Responsible for the outreach of the preliminary and semi-finals, as well as the
+                            organization of the competition site.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="motto">
+            <p>“人类从历史中学到的唯一教训，就是人类无法从历史中学到任何教训。”</p>
+            <p>————黑格尔</p>
+        </div>
+    </footer>
+
+    <script src="./JavaScript/profile.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兴趣爱好</title>
+    <link rel="stylesheet" href="./CSS/hobby.css">
+</head>
+
+<body>
+    <header>
+        <a href="profile.html">个人简介</a>
+        <a class="active" href="hobby.html">兴趣爱好</a>
+        <a href="music.html">我喜欢的歌曲</a>
+        <a href="photo.html">我的风景照片</a>
+    </header>
+    <section>
+        <div class="swiper">
+            <h2 id="header"></h2>
+            <p id="text"></p>
+            <img id="img" src="">
+            <div class="dots">
+            </div>
+        </div>
+        <table class="table">
+        </table>
+        <div class="form">
+            <h2>新增</h2>
+            <div class="spaceBetween">
+                <div>
+                    <div class="inline">
+                        <input type="text" placeholder="标题" id="title" style="margin-right: 20px;" oninput="add('title')">
+                        <input type="text" placeholder="地址" id="picture" oninput="add('picture')">
+                    </div>
+                    <div class="inline">
+                        <input type="text" placeholder="描述" id="describe" oninput="add('describe')">
+                    </div>
+                </div>
+                <button onclick="submit()">添加</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="motto">
+            <p>“精诚所至，金石为开。”</p>
+            <p>————宝莲灯</p>
+        </div>
+    </footer>
+
+    <script src="./JavaScript/hobby.js"></script>
+</body>
+
+</html>
