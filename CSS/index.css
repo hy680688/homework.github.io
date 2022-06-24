@@ -1,0 +1,103 @@
+
+        body {
+            height: 100vh;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(2, 20%);
+            grid-template-rows: repeat(2, 20%);
+            grid-row-gap: 5%;
+            grid-column-gap: 5%;
+            place-content: center;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            font-weight: 600;
+        }
+
+        .profile {
+            border-radius: 3px;
+            font-size: 20px;
+            color: #FFF;
+            text-decoration: none;
+            background-color: #2ecc71;
+            border: none;
+            border-bottom: 5px solid #27ae60;
+            text-shadow: 0px -2px #27ae60;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .profile:hover,
+        .profile:active {
+            -webkit-transform: translate(0px, 5px);
+            -ms-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+            border-bottom: 1px solid #2ecc71;
+        }
+
+        .hobby {
+            border-radius: 3px;
+            font-size: 20px;
+            color: #FFF;
+            text-decoration: none;
+            background-color: #66b1ff;
+            border: none;
+            border-bottom: 5px solid #409EFF;
+            text-shadow: 0px -2px #409EFF;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .hobby:hover,
+        .hobby:active {
+            -webkit-transform: translate(0px, 5px);
+            -ms-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+            border-bottom: 1px solid #66b1ff;
+        }
+
+        .music {
+            border-radius: 3px;
+            font-size: 20px;
+            color: #FFF;
+            text-decoration: none;
+            background-color: #f78989;
+            border: none;
+            border-bottom: 5px solid #F56C6C;
+            text-shadow: 0px -2px #F56C6C;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .music:hover,
+        .music:active {
+            -webkit-transform: translate(0px, 5px);
+            -ms-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+            border-bottom: 1px solid #f78989;
+        }
+
+        .photo {
+            border-radius: 3px;
+            font-size: 20px;
+            color: #FFF;
+            text-decoration: none;
+            background-color: #ebb563;
+            border: none;
+            border-bottom: 5px solid #E6A23C;
+            text-shadow: 0px -2px #E6A23C;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .photo:hover,
+        .photo:active {
+            -webkit-transform: translate(0px, 5px);
+            -ms-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+            border-bottom: 1px solid #ebb563;
+        }
